@@ -69,3 +69,14 @@ a:hover {
 .contact p {
     margin-bottom: 10px;
 }
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px; /* Reduces the side padding on small screens */
+    }
+    
+    iframe {
+        height: 450px; /* Makes the physics plotter a bit shorter so it fits the screen better */
+    }
+}
