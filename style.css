@@ -27,6 +27,18 @@ h1, h2, h3 {
     color: #ffffff;
 }
 
+.about {
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.about ul {
+    line-height: 1.8;
+}
+
 /* Add some clean styling to your project section */
 .project {
     background-color: #2d2d2d;
